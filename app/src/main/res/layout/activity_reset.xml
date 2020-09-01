@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    tools:context=".activity.ResetActivity">
+
+    <ImageView
+        android:id="@+id/img_app_logo"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_app_2" />
+
+    <TextView
+        android:id="@+id/txt_enter_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_app_logo"
+        android:layout_margin="20dp"
+        android:paddingTop="20dp"
+        android:text="Enter your registered mobile number and email below:"
+        android:textColor="@color/white_color"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/et_reset_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_enter_msg"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_phone"
+        android:hint="@string/mobileNumberReg"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_reset_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_reset_phone"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/emailAddressReg"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_reset_email"
+        android:layout_margin="20dp"
+        android:background="#c47c2b"
+        android:padding="13dp"
+        android:text="@string/BtnReset"
+        android:textColor="@color/white_color"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

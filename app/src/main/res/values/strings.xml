@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Foodies</string>
+    <string name="app_name_splash">FOODIES</string>
+    <string name="Mobile_number_text">Mobile Number(10 digits)</string>
+    <string name="password_msg">Password</string>
+    <string name="button_msg_login">Login</string>
+    <string name="forget_password_msg"><u>Forget Password?</u></string>
+    <string name="Register_msg"><u>Don\'t have an account?Sign up now</u></string>
+    <string name="shared_file_name">SharedPreferenceFile</string>
+    <string name="registerMsg">Name(Min.3 characters)</string>
+    <string name="emailAddressReg">Email Address</string>
+    <string name="mobileNumberReg">Mobile Number(10 digits)</string>
+    <string name="deliveryAddressReg">Delivery Address</string>
+    <string name="passwordRegisterMsg">Password(Min. 6 characters</string>
+    <string name="confirmPasswordReg">Confirm Password</string>
+    <string name="registerBtn">Register</string>
+    <string name="BtnReset">Next</string>
+    <string name="otpStringEt">OTP(4 characters)</string>
+    <string name="submitBtn">Submit</string>
+    <string name="Item1">Home</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="ItemProfile">My Profile</string>
+    <string name="itemFav">Favourite Restaurants</string>
+    <string name="item_his">Order History</string>
+    <string name="itmFaq">FAQs</string>
+    <string name="itmLog">Log Out</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="restuarant_name">Restaurant Name</string>
+    <string name="cart_msg">Proceed to Cart</string>
+
+</resources>

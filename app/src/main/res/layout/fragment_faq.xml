@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FaqFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q1)Do you provide free home delivery?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) Yes we provide free home delivery on purchase of food items above 500 rupess on purchase below it, you will be charged Rs50 we gaurantee you with faster delivery. "
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q2)How long will it take to deliver the food items?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) we provide faster delivery of food items to your provided adsress it could take maximum of 30 minutes in week days and upto 45 minutes on weekends."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q3)what if don't recieve my Otp?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) If you don't recieve OTP then it could be due to server error then wait for 10 minutes and then try again ,if the error is still there then contact on our customer care number."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q4)I am unable to register?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) If you are not able to register then it could be due to server error then wait for 10 minutes and then try again ,if the error is still there then contact on our customer care number."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q5)How many items can i add to cart?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) You can add as any Items as you want in the cart."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q6)How many Times can i reset my password?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ans) If you want to reset the password you need to go the options of forget my password then a page will appear and you need to fill the correct info and then an OTP will be Send to your registered email you can reset your password once in 24 hours."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#918c9c" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Q7)How do you deliver the food items?"
+            android:textColor="#c47c2b"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Ans) We deliver the food items using bike so that we can deliver the Food items Quickly at your address."
+            android:textColor="#000000"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background_color"
+    tools:context=".activity.RegistrationActivity">
+
+    <EditText
+        android:id="@+id/et_Reg_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/registerMsg"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_Reg_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/emailAddressReg"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_Reg_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_phone"
+        android:hint="@string/mobileNumberReg"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_Reg_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_phone"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_address"
+        android:hint="@string/deliveryAddressReg"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_Reg_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_address"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="@string/passwordRegisterMsg"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/et_Reg_conPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white_color"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="@string/confirmPasswordReg"
+        android:inputType="numberPassword"
+        android:maxLines="1"
+        android:padding="8dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_Reg_conPassword"
+        android:layout_margin="20dp"
+        android:background="#c47c2b"
+        android:padding="13dp"
+        android:text="@string/registerBtn"
+        android:textColor="@color/white_color"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
