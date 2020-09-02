@@ -26,3 +26,45 @@ In these App I have Used Kotlin Language to create my app.</br>
 * There is a option in the toolbar in Which the user can sort the list of Restaurants according to Price and Rating for which i have used Comparator class of the Kotlin and Collection class of java.<br/>
 * There is an FAQs section in which i have used hardcored strong to describe the app.<br/>
 * The user can logOut by Clicking the logOut item of the navigation drawer which brings the user back to login page,Where the user can login again if user wants to use the app again.<br/>
+## SnapShot of FoodiesApp:-
+</br>
+<table>
+ <tr><td><img width="170" alt="SplashScreen" src="https://user-images.githubusercontent.com/62636670/91996950-311ad080-ed57-11ea-996f-07fb9f5fb655.PNG"></td>
+    <td><img width="170" alt="LoggingPage" src="https://user-images.githubusercontent.com/62636670/91997572-dc2b8a00-ed57-11ea-8124-d7ea1773bf5f.PNG"></td>
+    <td><img width="170" alt="RegisterPage" src="https://user-images.githubusercontent.com/62636670/91998364-bf438680-ed58-11ea-8bf7-12fa79b502a9.PNG"></td>
+   <td><img width="170" alt="ResetPage" src="https://user-images.githubusercontent.com/62636670/91998482-e39f6300-ed58-11ea-8bbd-fe8a7b591b08.PNG"></td>
+ </tr>
+  <tr>
+ <td><img width="170" alt="OtpPage" src="https://user-images.githubusercontent.com/62636670/91998853-61636e80-ed59-11ea-8e9b-885ba07d0319.PNG"></td>
+ <td><img width="170" alt="HomePage" src="https://user-images.githubusercontent.com/62636670/91998783-498bea80-ed59-11ea-97f6-37dcdedf6677.PNG"></td>
+<td> <img width="170" alt="NavigationDrawer" src="https://user-images.githubusercontent.com/62636670/91998972-81932d80-ed59-11ea-8b16-b54e5d871f3d.PNG"></td>
+<td><img width="170" alt="FoodItems" src="https://user-images.githubusercontent.com/62636670/91999177-ba330700-ed59-11ea-8abf-00924bb9e064.PNG"></td>
+</tr>
+ <tr>
+   <td><img width="170" alt="Cart" src="https://user-images.githubusercontent.com/62636670/91999427-fe260c00-ed59-11ea-970a-d1d3657d0388.PNG">
+</td>
+   <td><img width="170" alt="OrderPlaced" src="https://user-images.githubusercontent.com/62636670/91999482-126a0900-ed5a-11ea-886e-8e3dd1b683db.PNG">
+</td>
+   <td><img width="170" alt="OrderHistory" src="https://user-images.githubusercontent.com/62636670/91999542-244bac00-ed5a-11ea-8e3f-aa9c7617e312.PNG">
+</td>
+   <td><img width="170" alt="FavotitesRestaurants" src="https://user-images.githubusercontent.com/62636670/91999646-3fb6b700-ed5a-11ea-865e-ea0de4f51930.PNG">
+ </td>
+  </tr>
+  <tr>
+    <td>
+<img width="170" alt="FavoutieRestaurants" src="https://user-images.githubusercontent.com/62636670/91999822-7096ec00-ed5a-11ea-9785-5f67300aed87.PNG">
+</td>
+    <td><img width="170" alt="FAQs" src="https://user-images.githubusercontent.com/62636670/91999867-80aecb80-ed5a-11ea-8d2c-1e1892ed974b.PNG">
+</td>
+    <td><img width="170" alt="Comparator" src="https://user-images.githubusercontent.com/62636670/91999950-97edb900-ed5a-11ea-990d-bba1e5c5e23b.PNG">
+</td>
+    <td><img width="170" alt="InternetConnection" src="https://user-images.githubusercontent.com/62636670/92000020-adfb7980-ed5a-11ea-97bb-914d28ff865a.PNG">
+</td>
+  </tr>
+  <tr><td><img width="170" alt="LogOut" src="https://user-images.githubusercontent.com/62636670/92000137-cd92a200-ed5a-11ea-98dc-d5bd2f594841.PNG">
+</td>
+ </tr>
+</table>
+ <img width="420" alt="OtpEmail" src="https://user-images.githubusercontent.com/62636670/92000226-e8651680-ed5a-11ea-8aae-0f037e73e189.PNG">
+
+
